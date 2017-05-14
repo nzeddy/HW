@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Paynuri</title>
+    <link rel="stylesheet" href="/Paynuri/CSS/style.css">
+    <link href="/Paynuri/asset/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body marginwidth="0" marginheight="0" style="overflow-x:hidden; overflow-y:auto;">
+    <div>
+      <div id="xe" class="fixed">
+        <div id="header">
+          <div class="extension">
+            <p class="gnbl">
+              <a href="/Paynuri/paynuri.html">
+                <img src="/Paynuri/Images/logo.gif" alt="Logo">
+              </a>
+            </p>
+            <ul class="top_Lmenu">
+              <li>. <a href="/Paynuri/paynuri.html">메인페이지</a></li>
+              <li>. <a href="#">온라인문의</a></li>
+              <li>. <a href="#">서비스전체보기</a></li>
+            </ul>
+            <ul class="gnb">
+              <li class="gnbm"><a href="#">전자결재</a></li>
+              <li class="gnbm"><a href="#">부가서비스</a></li>
+              <li class="gnbm"><a href="#">고객센터</a></li>
+              <li class="gnbm"><a href="#">기술지원</a></li>
+              <li class="gnbm"><a href="#">회사소개</a></li>
+            </ul>
+            <p style="clear:both;"></p>
+          </div>
+        </div>
+        <div id="body">
+          <div id="main_contents1">
+            <div class="mbox1">
+              <img src="/Paynuri/Images/main.gif" alt="main_picture">
+            </div>
+            <div class="mbox2">
+              <p class="mtitle1"><a href="#">페이누리소식
+                <img src="/Paynuri/Images/more.gif" alt="more" align="right"></a>
+              </p>
+              <ul class="bbs_tbl" >
+                <li>
+                  <a href="#">[계좌이체] 시스템 작업..</a>
+                </li>
+                <li>
+                  <a href="#">[가상계좌] 하나은행 전산센터..</a>
+                </li>
+                <li>
+                  <a href="#">[휴대폰결재] CJH, KCT..</a>
+                </li>
+                <li>
+                  <a href="#">[하나카드] 하나카드 & KEB..</a>
+                </li>
+                <li>
+                  <a href="#">[가상계좌] 농협은행 센터이전..</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mbox3">
+              <a href="#"><img src="/Paynuri/Images/main_svc_go_01.gif" alt="apply_service"></a>
+              <a href="#"><img src="/Paynuri/Images/main_svc_go_02.gif" alt="intro_service"></a> <br>
+              <a href="#"><img src="/Paynuri/Images/main_svc_go_03.gif" alt="install_guide"></a>
+              <a href="#"><img src="/Paynuri/Images/main_svc_go_04.gif" alt="Q&A"></a> <br>
+              <a href="#"><img src="/Paynuri/Images/main_svc_go_05.gif" alt="CS"></a>
+              <a href="#"><img src="/Paynuri/Images/main_svc_go_06.gif" alt="branch" target="_blank"></a>
+            </div>
+            <p style="clear:both; height:0.5px;"></p>
+            <div id="main_contents2">
+              <div class="mbox4">
+                <div class="mbox_inbox">
+                  <p class="mtitle2"><a href="#">이벤트&행사
+                    <img src="/Paynuri/Images/more.gif" alt="more" align="right"></a>
+                  </p>
+                  <ul class="bbs_tbl3">
+                    <li><a href="#"><img src="/Paynuri/Images/test_event.gif" alt=""></a></li>
+                    <li><a href="#">페이누리 2017년 05월 무이자할부 이벤트</a></li>
+                    <li><a href="#">페이누리 2017년 04월 무이자할부 이벤트</a></li>
+                  </ul>
+                </div>
+                <div class="mbox_inbox">
+                  <p class="mtitle3"><a href="#">자주묻는질문
+                    <img src="/Paynuri/Images/more.gif" alt="more" align="right"></a>
+                  </p>
+                  <ul class="bbs_tbl2">
+                    <li>
+                      <a href="#">사업자등록증이 변경되었습니다. 어떻게 해야 하..</a>
+                    </li>
+                    <li>
+                      <a href="#">페이누리 PG서비스는 어떻게 신청하나요</a>
+                    </li>
+                    <li>
+                      <a href="#">사업자등록증 상의 상호가 변경되었습니다.</a>
+                    </li>
+                    <li>
+                      <a href="#">대금입금계좌를 바꾸고 싶어요</a>
+                    </li>
+                    <li>
+                      <a href="#">카드취소를 했는데, 고객은 취소가 안됐다고 합..</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="mbox5">
+                <form id="requestFrm" name="requestFrm">
+                  <dl class="mform_pay">
+                    <dt>카드결제내역조회</dt>
+                    <dd>
+                      <input type="radio" name="APPR_KIND" id="APPR_KIND1" value="ISP" style="vertical-align:middle;">
+                      <label for="APPR_KIND1">안전결재(ISP) - 국민/BC/우리</label>
+                    </dd>
+                    <dd style="margin:0 0 10px 0">
+                      <input type="radio" name="APPR_KIND" id="APPR_KIND2" value="0" style="vertical-align:middle;">
+                      <label for="APPR_KIND2">일반 -  ISP를 제외한 모든카드</label>
+                    </dd>
+                    <dd>
+                      <strong>* 카드번호</strong>
+                      <input type="text" name="card_no" id="CARD_NO" required="required" class="input_mpay" placeholder="숫자만 입력하세요" value alt="카드번호">
+                    </dd>
+                    <dd>
+                      <strong>* 승인일자</strong>
+                      <input type="text" name="tran_date" id="DRAN_DATE" required="required" class="input_mpay" placeholder="예)150423" value alt="카드번호">
+                    </dd>
+                    <dd>
+                      <strong>* 결재금액</strong>
+                      <input type="text" name="amount" id="AMOUNT" required="required" class="input_mpay" placeholder="숫자만 입력하세요" value alt="카드번호">
+                    </dd>
+                    <dd>
+                      <input type="button" name="button" id="searchButton" class="input_msubmit" value="결제내역조회" style="cursor:pointer;">
+                    </dd>
+                  </dl>
+                </form>
+              </div>
+            </div>
+            <p style="clear:both;"></p>
+            <div class="main_contents3">
+              <div class="mbox4">
+                <div class="mbox_inbox_pgsvc">
+                  <div class="mtitle4"><a href="#">전자결재서비스
+                  <img src="/Paynuri/Images/more.gif" alt="more"></a>
+                    <p class="stitle1">페이누리 전자결재로 편리하고 안전한 전자결재를 이용하세요</p>
+                    <ul class="bbs_tbl4">
+                      <li><a href="#">신용카드결재</a></li>
+                      <li><a href="#">계좌이체</a></li>
+                      <li><a href="#">가상계좌결재</a></li>
+                      <li><a href="#">휴대폰결재</a></li>
+                      <li><a href="#">ARS전화결재</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
